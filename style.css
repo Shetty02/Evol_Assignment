@@ -1,0 +1,330 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-1{
+    width: 60%;
+}
+.card-1-items{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    color: white;
+    width: 80%;
+    /* margin: 0; */
+    border-radius: 5px;
+    height: 400px;
+    margin: auto;
+}
+.card-1-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-around;
+    padding: 25px;
+}
+.card-1-text1{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: flex-start;
+}
+.card-1-text1 span{
+    font-weight: 600;
+}
+.card-1-img img{
+    height: 400px;
+}
+.card-1-btn{
+    display: flex;
+    column-gap: 10px;
+}
+.card-1-btn .btn1{
+    background-color: #009EF7;
+    height: 48px;
+    width: 115px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 100%; */
+    gap: 15px;
+}
+.icons span{
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
+.card-1-text #circle{
+    color: blue;
+}
+.card-1-text #circle1{
+    background-color: blue;
+    color: black;
+    border-radius: 10px;
+    width: 22px;
+    height: 22px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-1-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.card-1-text h1,h2{
+    margin: 8px;
+}
+.card-1-btn .btn2{
+    background-color: black;
+    height: 45px;
+    width: 125px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid;
+}
+.card-2{
+    width: 40%;
+}
+.card-2-content{
+    width: 80%;
+    margin: auto;
+    /* background-color: black;
+    color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-2-text{
+    background-color: black;
+    color: white;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.card-2-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-2-img img{
+    border-radius: 80px;
+    height: 150px;
+}
+.range{
+    position: relative;
+    top: 15px;
+}
+.range input{
+    width: 390px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+}
+.musicPlayer{
+    display: flex;
+    width: 350px;
+    padding: 15px
+}
+.songName{
+    font-size: 30px;
+    padding: 8px;
+    font-weight: 600;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 369px;
+}
+.playBtn{
+    background-color: #009EF7;
+    width: 80%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.section-1{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-direction: row;
+margin-top: 30px;
+
+}
+.section-card-1{
+    width: 60%;
+}
+.section-1-content{
+    background-color: white;
+    border: 1px solid #00000014;
+    padding: 15px;
+    width: 80%;
+    border-radius: 5px;
+    margin: auto;
+}
+.section-card-2{
+    width: 40%;
+}
+.section-1-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    padding: 15px;
+    margin-left: 20px;
+}
+.section-1-btn button{
+    background-color: #dfe4f2;
+    border-radius: 2px solid;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 70px;
+    opacity: 0.6;   
+}
+.section-1-recently-played{
+    display: flex;
+    flex-direction: column;
+}
+.Container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.cardContainer{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+}
+.cardImg img{
+    width: 130px; 
+    border-radius: 8px;
+    height: 150px;
+}
+.playBtnImg{
+    position: relative;
+    left: 12px;
+    /* right: 125px; */
+    top: -30px;
+    color: white;
+    font-size: 18px;
+}
+.cardText{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.cardText .text1{
+    font-size: 20px;
+    font-weight: 550;
+}
+.cardText .text2{
+    opacity: 0.6;
+    font-size: 12px;
+    font-weight: 600;
+}
+.section-2-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.section-2-Top{
+    display: flex;
+    flex-direction: column;
+}
+.section-2-content{
+    background-color: white;
+    border: 1px solid #00000014;
+    padding: 15px;
+    width: 80%;
+    border-radius: 5px;
+    margin: auto;
+}
+.section-2-btn button{
+    background-color: #dfe4f2;
+    border-radius: 2px solid;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 70px;
+    opacity: 0.7;
+}
+.followContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.follow{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.followimg img{
+    border-radius: 35px;
+    height: 70px;
+}
+.followText{
+    display: flex;
+    flex-direction: column;
+}
+hr.new1 {
+    border-top: 1px dashed black;
+  }
+/* .followBtn button{
+    color: #74B4FA;
+    border: none;
+    background-color: #F1FAFF;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+  } */
+  /* .followingBtn button{
+    background-color: #009EF7;
+    border: none;
+    color: white;
+    width: 80px;
+    height: 30px;
+    font-weight: 600;
+    border-radius: 5px;
+  } */
+  .follow-button{
+    background-color: inherit;
+    border: 1px solid #009EF7;
+    border-radius: 6px;
+    color: white;
+    padding: 6px 16px;
+    outline: none;
+    font-weight: 900;
+    background-color: #009EF7;
+  }
+  .followed {
+    background-color: #F1FAFF;
+    color: #74B4FA;
+  }
